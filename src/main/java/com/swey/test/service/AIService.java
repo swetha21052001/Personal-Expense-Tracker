@@ -4,5 +4,5 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface AIService {
-    String getResponse();
+    String getResponse(String prompt);
 }
